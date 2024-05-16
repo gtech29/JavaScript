@@ -14,6 +14,7 @@ This repository contains practice projects from freecodecamp.org, aimed at learn
 
 * **pyramidGenerator.js** : JavaScript file containing the logic for generating pyramids.
 * **gradeBook.js:** JS file containing the logic for a grade book application.
+* **Role Playing Game:** Created the logic and UI for a small rpg game.
 
 ## Getting Started
 
