@@ -1,4 +1,4 @@
-# JavaScript Pyramid Generator
+# JavaScript Practice Projects
 
 This repository contains practice projects aimed at learning fundamental programming concepts in JavaScript. This projects can help me reinforce essential concepts such as working with arrays, strings, functions, loops, `if/else` statements, and methods within JavaScript.
 
