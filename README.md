@@ -12,7 +12,8 @@ This repository contains practice projects aimed at learning fundamental program
 
 ## Project Structure
 
-* **script.js** : JavaScript file containing the logic for generating pyramids.
+* **pyramidGenerator.js** : JavaScript file containing the logic for generating pyramids.
+* **gradeBook.js:** JS file containing the logic for a grade book application.
 
 ## Getting Started
 
