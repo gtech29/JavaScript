@@ -18,6 +18,6 @@ This repository contains practice projects aimed at learning fundamental program
 ## Getting Started
 
 1. Clone this repository to your local machine.
-2. Open `pyramidGenerator.js` in an IDE to see the Pyramid Generator in action.
+2. Open any file in an IDE to see the Pyramid Generator in action.
 
 Feel free to explore and modify the code to deepen your understanding of JavaScript programming concepts.
