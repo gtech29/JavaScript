@@ -23,10 +23,14 @@ const locations = [
     text: 'You are in the town square. You see a sign that says "Store".',
   },
   {
-    name: "town square",
-    "button text": ["Go to store", "Go to cave", "Fight dragon"],
-    "button functions": [goStore, goCave, fightDragon],
-    text: 'You are in the town square. You see a sign that says "Store".',
+    name: "store",
+    "button text": [
+      "Buy 10 health (10 gold)",
+      "Buy weapon (30 gold)",
+      "Go to town square",
+    ],
+    "button functions": [buyHealth, buyWeapon, goTown],
+    text: "You enter the store.",
   },
 ];
 
@@ -45,6 +49,9 @@ function goTown() {
   text.innerText =
     'You are in the town square. You see a sign that says "Store".';
 }
+
+// left off in step #61
+
 
 function goStore() {
   button1.innerText = "Buy 10 health (10 gold)";
@@ -72,7 +79,11 @@ function buyHealth() {}
 function buyWeapon() {}
 
 function update(location) {
-  if ((location = goStore)) {
-    goStore();
-  }
+ button1.innerText = " ";
+ button2.innerText = " ";
+ button3.innerText = " ";
+ button1.onclick = buyHealth;
+ button2.onclick = buyWeapon;
+ button3.onclick = goTown;
+ text.innerText = "You enter the cave.";
 }
